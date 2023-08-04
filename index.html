@@ -3,12 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>My_Portfolio</title>
+
+    <style>
+        h3::first-letter{
+            color: darkorange;
+        }
+        .mystyle1[name]{
+            color: darkorange;
+        }
+        .mystyle2[name]{
+            color: darkorange;
+        }
+        button{
+            background-color: darkorange;
+            color: black;
+            border: 2px solid;
+            font-weight: bold;
+            border-radius: 30px;
+        }
+
+        button:hover{
+            background-color: red;
+            border: 2px;
+            cursor: pointer;
+
+        }
+
+        h6{
+            color: orange;
+            font-size: 13px;
+
+        }
+
+        footer{
+            color: black;
+            background-color: orange;
+        }
+
+    </style>
 </head>
 <body>
-<header>
     <nav>
-        <h3>Portfolio.</h3>
+        <h4>Desktop</h4>
 
+        <h2>Portfolio.</h2>
         <a href="">About</a>
         <a href="">Services</a>
         <a href="">Projects</a>
@@ -18,7 +56,6 @@
         <a href="">Gallery</a>
 
     </nav>
-</header>
 
 <main>
     <section>
@@ -26,28 +63,29 @@
     </section>
 
     <section>
-        <h1>Hello</h1>
+        <h1 class="mystyle1" name="hello"><em>Hello</em></h1>
         <h2>I'M Janani Isurika</h2>
-        <h2>Web developer & UI/UX designer</h2>
+        <h2 class="mystyle2" name="designer">Web developer & UI/UX designer</h2>
         <p>Hi , I’m Janani Isurika Web developer and UI/UX Designer.Visit my profile and stay connect with me.</p>
 
         <div>
             <a href="">Facebook</a>
             <a href="">Instagram</a>
-            <a href="">Google</a>
+            <a href="">LinkIn</a>
+            <a href="">Github</a>
         </div>
 
         <div>
             <button>Contact me</button>
+
         </div>
     </section>
 </main>
-<hr>
 
-<header>
-    <section>
+
+    <section class="about">
+        <div>
         <img src="" alt="" width="">
-    </section>
 
     <nav>
         <h3>About Me</h3>
@@ -55,61 +93,50 @@
         <p>I’m Janani Isurika Front-End developer and UI/UX Designer.I can design and build your website as you want.I have one year of experience in web development as well as UI/UX Designing.Now I can able to design your website or application. </p>
 
     </nav>
-
-    <div>
-        <button>Read more</button>
+        <button type="button">Read more</button>
     </div>
 
-</header>
-<hr>
+    </section>
 
-<header>
-    <nav>
+
+    <div>
         <h3>My Services</h3>
-    </nav>
 
     <section>
         <img src="" alt="" width="">
     </section>
 
-    <nav>
-        <h5>Web Development</h5>
+    <div>
+        <h6>Web Development</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae commodi consequatur, consequuntur distinctio dolores eligendi eos facere fugiat harum illo, incidunt magnam odit pariatur quidem rerum velit voluptas voluptatem!</p>
 
-    </nav>
-    <div>
-        <button>Read more</button>
+        <button type="button">Read more</button>
+    </div>
     </div>
 
     <section>
         <img src="" alt="" width="">
     </section>
 
-    <nav>
-        <h5>Web Design</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae commodi consequatur, consequuntur distinctio dolores eligendi eos facere fugiat harum illo, incidunt magnam odit pariatur quidem rerum velit voluptas voluptatem!</p>
+<div>
+    <h6>Web Design</h6>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae commodi consequatur, consequuntur distinctio dolores eligendi eos facere fugiat harum illo, incidunt magnam odit pariatur quidem rerum velit voluptas voluptatem!</p>
 
-    </nav>
-    <div>
-        <button>Read more</button>
-    </div>
+    <button type="button">Read more</button>
+</div>
 
     <section>
         <img src="" alt="" width="">
     </section>
 
-    <nav>
-        <h5>Digital Marketing</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae commodi consequatur, consequuntur distinctio dolores eligendi eos facere fugiat harum illo, incidunt magnam odit pariatur quidem rerum velit voluptas voluptatem!</p>
+<div>
+    <h6>Digital Marketing</h6>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae commodi consequatur, consequuntur distinctio dolores eligendi eos facere fugiat harum illo, incidunt magnam odit pariatur quidem rerum velit voluptas voluptatem!</p>
 
-    </nav>
-    <div>
-        <button>Read more</button>
-    </div>
-</header>
-<hr>
+    <button type="button">Read more</button>
+</div>
 
-<header>
+
     <nav>
         <h3>My Projects</h3>
         <h4>Project 1</h4>
@@ -117,7 +144,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur distinctio eligendi eos nesciunt voluptatem voluptatum. Architecto delectus, ea error fuga impedit itaque maxime nisi repellendus voluptatem voluptatibus! Corporis, unde?</p>
     </nav>
     <div>
-        <button>Project</button>
+        <button type="button">Project</button>
     </div>
 
     <nav>
@@ -126,7 +153,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur distinctio eligendi eos nesciunt voluptatem voluptatum. Architecto delectus, ea error fuga impedit itaque maxime nisi repellendus voluptatem voluptatibus! Corporis, unde?</p>
     </nav>
     <div>
-        <button>Project</button>
+        <button type="button">Project</button>
     </div>
 
     <nav>
@@ -135,20 +162,18 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur distinctio eligendi eos nesciunt voluptatem voluptatum. Architecto delectus, ea error fuga impedit itaque maxime nisi repellendus voluptatem voluptatibus! Corporis, unde?</p>
     </nav>
     <div>
-        <button>Project</button>
+        <button type="button">Project</button>
     </div>
 
-</header>
-<hr>
 
-<header>
+
     <nav>
         <h3>Assignments</h3>
         <h4>Assignment 1</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores culpa deleniti ex exercitationem facilis hic iure laudantium nam, officiis possimus quidem sequi, suscipit veniam voluptatum. Accusamus aspernatur eius laborum!</p>
     </nav>
     <div>
-        <button>Show</button>
+        <button type="button">Show</button>
     </div>
 
     <nav>
@@ -156,7 +181,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores culpa deleniti ex exercitationem facilis hic iure laudantium nam, officiis possimus quidem sequi, suscipit veniam voluptatum. Accusamus aspernatur eius laborum!</p>
     </nav>
     <div>
-        <button>Show</button>
+        <button type="button">Show</button>
     </div>
 
     <nav>
@@ -164,23 +189,20 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores culpa deleniti ex exercitationem facilis hic iure laudantium nam, officiis possimus quidem sequi, suscipit veniam voluptatum. Accusamus aspernatur eius laborum!</p>
     </nav>
     <div>
-        <button>Show</button>
+        <button type="button">Show</button>
     </div>
 
-</header>
-<hr>
 
-<header>
     <nav>
         <h3>My Skills...</h3>
-    </nav>
-</header>
 
-<header>
+    </nav>
+
+
     <nav>
         <h3>Contact me !</h3>
     </nav>
-</header>
+
 <form>
     <input type="text" placeholder="Full Name">
     <input type="tel" placeholder="Mobile Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
@@ -190,5 +212,440 @@
 
 </form>
 
+<footer>
+    <p>Created By  @Janani Isurika | All Right Reserved !</p>
+</footer>
+
+<hr>
+
+    <nav>
+        <h4>Mobile</h4>
+    </nav>
+
+    <main>
+        <section>
+            <img src="" alt="" width="">
+        </section>
+
+        <section>
+            <h1 class="mystyle1" name="hello"><em>Hello</em></h1>
+            <h2>I'M Janani Isurika</h2>
+            <h2 class="mystyle2" name="designer">Web developer & UI/UX designer</h2>
+            <p>Hi , I’m Janani Isurika Web developer and UI/UX Designer.Visit my profile and stay connect with me.</p>
+
+        </section>
+    </main>
+
+
+    <section class="about">
+        <div>
+            <img src="" alt="" width="">
+
+            <nav>
+                <h3>About Me</h3>
+                <h5>Fornt-end developer & designer!</h5>
+                <p>I’m Janani Isurika Front-End developer and UI/UX Designer.I can design and build your website as you want.I have one year of experience in web development as well as UI/UX Designing.Now I can able to design your website or application. </p>
+
+            </nav>
+            <button type="button">Read more</button>
+        </div>
+        <div>
+            <a href="">Facebook</a>
+            <a href="">Instagram</a>
+            <a href="">LinkIn</a>
+            <a href="">Github</a>
+        </div>
+
+
+    </section>
+
+
+    <div>
+        <h3>My Services</h3>
+
+        <section>
+            <img src="" alt="" width="">
+        </section>
+
+        <div>
+            <h6>Web Development</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae commodi consequatur, consequuntur distinctio dolores eligendi eos facere fugiat harum illo, incidunt magnam odit pariatur quidem rerum velit voluptas voluptatem!</p>
+
+            <button type="button">Read more</button>
+        </div>
+    </div>
+
+    <section>
+        <img src="" alt="" width="">
+    </section>
+
+    <div>
+        <h6>Web Design</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae commodi consequatur, consequuntur distinctio dolores eligendi eos facere fugiat harum illo, incidunt magnam odit pariatur quidem rerum velit voluptas voluptatem!</p>
+
+        <button type="button">Read more</button>
+    </div>
+
+    <section>
+        <img src="" alt="" width="">
+    </section>
+
+    <div>
+        <h6>Digital Marketing</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae commodi consequatur, consequuntur distinctio dolores eligendi eos facere fugiat harum illo, incidunt magnam odit pariatur quidem rerum velit voluptas voluptatem!</p>
+
+        <button type="button">Read more</button>
+    </div>
+
+
+    <nav>
+        <h3>My Projects</h3>
+        <h4>Project 1</h4>
+        <h5>Project name</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur distinctio eligendi eos nesciunt voluptatem voluptatum. Architecto delectus, ea error fuga impedit itaque maxime nisi repellendus voluptatem voluptatibus! Corporis, unde?</p>
+    </nav>
+    <div>
+        <button type="button">Project</button>
+    </div>
+
+    <nav>
+        <h4>Project 2</h4>
+        <h5>Project name</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur distinctio eligendi eos nesciunt voluptatem voluptatum. Architecto delectus, ea error fuga impedit itaque maxime nisi repellendus voluptatem voluptatibus! Corporis, unde?</p>
+    </nav>
+    <div>
+        <button type="button">Project</button>
+    </div>
+
+    <nav>
+        <h4>Project 3</h4>
+        <h5>Project name</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur distinctio eligendi eos nesciunt voluptatem voluptatum. Architecto delectus, ea error fuga impedit itaque maxime nisi repellendus voluptatem voluptatibus! Corporis, unde?</p>
+    </nav>
+    <div>
+        <button type="button">Project</button>
+    </div>
+
+
+
+    <nav>
+        <h3>Assignments</h3>
+        <h4>Assignment 1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores culpa deleniti ex exercitationem facilis hic iure laudantium nam, officiis possimus quidem sequi, suscipit veniam voluptatum. Accusamus aspernatur eius laborum!</p>
+    </nav>
+    <div>
+        <button type="button">Show</button>
+    </div>
+
+    <nav>
+        <h3>My Skills...</h3>
+
+    </nav>
+
+
+    <nav>
+        <h3>Contact me !</h3>
+    </nav>
+
+    <form>
+        <input type="text" placeholder="Full Name">
+        <input type="tel" placeholder="Mobile Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+        <input type="email" placeholder="E-mail address"><br><br>
+        <textarea id="address2" placeholder="Your Message" cols="70" rows="10"></textarea><br><br>
+        <button type="send message">Send Message</button>
+
+    </form>
+
+    <footer>
+        <p>Created By  @Janani Isurika | All Right Reserved !</p>
+    </footer>
+
+<hr>
+
+    <nav>
+        <h4>Desktop</h4>
+
+    </nav>
+
+    <main>
+        <section>
+            <img src="" alt="" width="">
+        </section>
+
+        <section>
+            <h1 class="mystyle1" name="hello"><em>Hello</em></h1>
+            <h2>I'M Janani Isurika</h2>
+            <h2 class="mystyle2" name="designer">Web developer & UI/UX designer</h2>
+            <p>Hi , I’m Janani Isurika Web developer and UI/UX Designer.Visit my profile and stay connect with me.</p>
+
+        </section>
+    </main>
+
+
+    <section class="about">
+        <div>
+            <img src="" alt="" width="">
+
+            <nav>
+                <h3>About Me</h3>
+                <h5>Fornt-end developer & designer!</h5>
+                <p>I’m Janani Isurika Front-End developer and UI/UX Designer.I can design and build your website as you want.I have one year of experience in web development as well as UI/UX Designing.Now I can able to design your website or application. </p>
+
+            </nav>
+            <button type="button">Read more</button>
+        </div>
+
+    </section>
+
+
+    <div>
+        <h3>My Services</h3>
+
+        <section>
+            <img src="" alt="" width="">
+        </section>
+
+        <div>
+            <h6>Web Development</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae commodi consequatur, consequuntur distinctio dolores eligendi eos facere fugiat harum illo, incidunt magnam odit pariatur quidem rerum velit voluptas voluptatem!</p>
+
+            <button type="button">Read more</button>
+        </div>
+    </div>
+
+    <nav>
+        <h3>My Projects</h3>
+        <h4>Project 1</h4>
+        <h5>Project name</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur distinctio eligendi eos nesciunt voluptatem voluptatum. Architecto delectus, ea error fuga impedit itaque maxime nisi repellendus voluptatem voluptatibus! Corporis, unde?</p>
+    </nav>
+    <div>
+        <button type="button">Project</button>
+    </div>
+
+    <nav>
+        <h4>Project 2</h4>
+        <h5>Project name</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur distinctio eligendi eos nesciunt voluptatem voluptatum. Architecto delectus, ea error fuga impedit itaque maxime nisi repellendus voluptatem voluptatibus! Corporis, unde?</p>
+    </nav>
+    <div>
+        <button type="button">Project</button>
+    </div>
+
+    <nav>
+        <h4>Project 3</h4>
+        <h5>Project name</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur distinctio eligendi eos nesciunt voluptatem voluptatum. Architecto delectus, ea error fuga impedit itaque maxime nisi repellendus voluptatem voluptatibus! Corporis, unde?</p>
+    </nav>
+    <div>
+        <button type="button">Project</button>
+    </div>
+
+
+
+    <nav>
+        <h3>Assignments</h3>
+        <h4>Assignment 1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores culpa deleniti ex exercitationem facilis hic iure laudantium nam, officiis possimus quidem sequi, suscipit veniam voluptatum. Accusamus aspernatur eius laborum!</p>
+    </nav>
+    <div>
+        <button type="button">Show</button>
+    </div>
+
+    <nav>
+        <h3>My Skills...</h3>
+
+    </nav>
+
+
+    <nav>
+        <h3>Contact me !</h3>
+    </nav>
+
+    <form>
+        <input type="text" placeholder="Full Name">
+        <input type="tel" placeholder="Mobile Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+        <input type="email" placeholder="E-mail address"><br><br>
+        <textarea id="address3" placeholder="Your Message" cols="70" rows="10"></textarea><br><br>
+        <button type="send message">Send Message</button>
+
+    </form>
+
+    <footer>
+        <p>Created By  @Janani Isurika | All Right Reserved !</p>
+    </footer>
+
+    <nav>
+        <h4>Laptop</h4>
+
+        <h2>Portfolio.</h2>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Projects</a>
+        <a href="">Assignments</a>
+        <a href="">Skills</a>
+        <a href="">Contact</a>
+        <a href="">Gallery</a>
+
+    </nav>
+
+    <main>
+        <section>
+            <img src="" alt="" width="">
+        </section>
+
+        <section>
+            <h1 class="mystyle1" name="hello"><em>Hello</em></h1>
+            <h2>I'M Janani Isurika</h2>
+            <h2 class="mystyle2" name="designer">Web developer & UI/UX designer</h2>
+            <p>Hi , I’m Janani Isurika Web developer and UI/UX Designer.Visit my profile and stay connect with me.</p>
+
+            <div>
+                <a href="">Facebook</a>
+                <a href="">Instagram</a>
+                <a href="">LinkIn</a>
+                <a href="">Github</a>
+            </div>
+
+            <div>
+                <button>Contact me</button>
+
+            </div>
+        </section>
+    </main>
+
+
+    <section class="about">
+        <div>
+            <img src="" alt="" width="">
+
+            <nav>
+                <h3>About Me</h3>
+                <h5>Fornt-end developer & designer!</h5>
+                <p>I’m Janani Isurika Front-End developer and UI/UX Designer.I can design and build your website as you want.I have one year of experience in web development as well as UI/UX Designing.Now I can able to design your website or application. </p>
+
+            </nav>
+            <button type="button">Read more</button>
+        </div>
+
+    </section>
+
+
+    <div>
+        <h3>My Services</h3>
+
+        <section>
+            <img src="" alt="" width="">
+        </section>
+
+        <div>
+            <h6>Web Development</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae commodi consequatur, consequuntur distinctio dolores eligendi eos facere fugiat harum illo, incidunt magnam odit pariatur quidem rerum velit voluptas voluptatem!</p>
+
+            <button type="button">Read more</button>
+        </div>
+    </div>
+
+    <section>
+        <img src="" alt="" width="">
+    </section>
+
+    <div>
+        <h6>Web Design</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae commodi consequatur, consequuntur distinctio dolores eligendi eos facere fugiat harum illo, incidunt magnam odit pariatur quidem rerum velit voluptas voluptatem!</p>
+
+        <button type="button">Read more</button>
+    </div>
+
+    <section>
+        <img src="" alt="" width="">
+    </section>
+
+    <div>
+        <h6>Digital Marketing</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae commodi consequatur, consequuntur distinctio dolores eligendi eos facere fugiat harum illo, incidunt magnam odit pariatur quidem rerum velit voluptas voluptatem!</p>
+
+        <button type="button">Read more</button>
+    </div>
+
+
+    <nav>
+        <h3>My Projects</h3>
+        <h4>Project 1</h4>
+        <h5>Project name</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur distinctio eligendi eos nesciunt voluptatem voluptatum. Architecto delectus, ea error fuga impedit itaque maxime nisi repellendus voluptatem voluptatibus! Corporis, unde?</p>
+    </nav>
+    <div>
+        <button type="button">Project</button>
+    </div>
+
+    <nav>
+        <h4>Project 2</h4>
+        <h5>Project name</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur distinctio eligendi eos nesciunt voluptatem voluptatum. Architecto delectus, ea error fuga impedit itaque maxime nisi repellendus voluptatem voluptatibus! Corporis, unde?</p>
+    </nav>
+    <div>
+        <button type="button">Project</button>
+    </div>
+
+    <nav>
+        <h4>Project 3</h4>
+        <h5>Project name</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequuntur distinctio eligendi eos nesciunt voluptatem voluptatum. Architecto delectus, ea error fuga impedit itaque maxime nisi repellendus voluptatem voluptatibus! Corporis, unde?</p>
+    </nav>
+    <div>
+        <button type="button">Project</button>
+    </div>
+
+
+
+    <nav>
+        <h3>Assignments</h3>
+        <h4>Assignment 1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores culpa deleniti ex exercitationem facilis hic iure laudantium nam, officiis possimus quidem sequi, suscipit veniam voluptatum. Accusamus aspernatur eius laborum!</p>
+    </nav>
+    <div>
+        <button type="button">Show</button>
+    </div>
+
+    <nav>
+        <h4>Assignment 2</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores culpa deleniti ex exercitationem facilis hic iure laudantium nam, officiis possimus quidem sequi, suscipit veniam voluptatum. Accusamus aspernatur eius laborum!</p>
+    </nav>
+    <div>
+        <button type="button">Show</button>
+    </div>
+
+    <nav>
+        <h4>Assignment 3</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores culpa deleniti ex exercitationem facilis hic iure laudantium nam, officiis possimus quidem sequi, suscipit veniam voluptatum. Accusamus aspernatur eius laborum!</p>
+    </nav>
+    <div>
+        <button type="button">Show</button>
+    </div>
+
+
+    <nav>
+        <h3>My Skills...</h3>
+
+    </nav>
+
+
+    <nav>
+        <h3>Contact me !</h3>
+    </nav>
+
+    <form>
+        <input type="text" placeholder="Full Name">
+        <input type="tel" placeholder="Mobile Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+        <input type="email" placeholder="E-mail address"><br><br>
+        <textarea id="address4" placeholder="Your Message" cols="70" rows="10"></textarea><br><br>
+        <button type="send message">Send Message</button>
+
+    </form>
+
+    <footer>
+        <p>Created By  @Janani Isurika | All Right Reserved !</p>
+    </footer>
 </body>
 </html>
