@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+
+}
+nav>ul>li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav>ul>li>a:hover{
+    color: orange;
+    transition: 1s;
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-page>h3{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+span{
+    color: orange;
+}
+.home-page>p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.home-image>img{
+    width: 25vw;
+}
+
+.social-icon>a{
+    font-size: 2rem;
+    color: white;
+    margin: 3rem;
+
+}
+.social-icon>a:hover{
+    color: orange;
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: orange;
+    border-radius: 4rem;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    color: black;
+    font-weight: 200;
+}
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.about-image{
+    width: 35vw;
+}
