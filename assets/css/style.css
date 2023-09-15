@@ -115,11 +115,12 @@ span{
     margin: 2rem 0 3rem;
 }
 
+/*services section*/
 .services>h2{
     margin-bottom: 5rem;
     color: white;
 }
-.service2{
+.service-box{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,12 +128,52 @@ span{
     gap: 2rem;
     color: white;
 }
-.service2 .box{
-    flex: 1 1 30rem;
+.service-box .box{
+    flex: 2 2 20rem;
     background: black;
-    padding: 3rem 2rem 4rem;
+    padding: 3rem 3rem 3rem;
     border-radius: 2rem;
     text-align: center;
     border: .2rem solid darkgray;
+
+}
+.box>h3{
+    font-size: 2.6rem;
+}
+.box>p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+/*Project section*/
+.projects{
+    background: black;
+}
+.projects>h2{
+    margin-bottom: 4rem;
+    font-size: 3rem;
+    color: white;
+}
+.project-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+.project-box .p-box{
+    position: relative;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+}
+.p-box>img{
+    width: 100%;
+}
+
+.p-box .content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 
 }
