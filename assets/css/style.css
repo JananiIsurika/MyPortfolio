@@ -94,7 +94,45 @@ span{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    color: white;
 }
-.about-image{
+.about-image {
     width: 35vw;
+}
+.about{
+    text-align: center;
+    font-size: 3rem;
+}
+.header>h2{
+    text-align: left;
+    line-height: 1.5;
+}
+.header>h3{
+    font-size: 1rem;
+}
+.header>p{
+    font-size: 1rem;
+    margin: 2rem 0 3rem;
+}
+
+.services>h2{
+    margin-bottom: 5rem;
+    color: white;
+}
+.service2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    color: white;
+}
+.service2 .box{
+    flex: 1 1 30rem;
+    background: black;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid darkgray;
+
 }
